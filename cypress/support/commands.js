@@ -130,9 +130,14 @@ Cypress.Commands.add('scorecard', ()=> {
     cy.get(':nth-child(7) > td').type('{rightArrow}')
 
     cy.contains('button', 'Enviar').click()
+
+    cy.contains( 'Concluir').click()
+
+
 })
 
 Cypress.Commands.add('verificacao', ()=> {
-    cy.get('.mb-5 > p').should('have.text','Se você achar que este problema está no site, por favor nos avise')
-
+  
+    cy.wait(3000)
+   cy.contains( 'Complete seu perfil').should('be.visible')
 })
