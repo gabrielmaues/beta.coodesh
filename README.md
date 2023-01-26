@@ -5,8 +5,7 @@ melhores, mais rápidos e eficientes.
 Houve um problema nessa nova versão do Cypress onde não aceitei os cookies automaticamente ainda,
 tendo que ser feito manualmente esse passo.
 
-No final do processo, foi feito a verificação com mensagem de erro, essa mensagem ocorre também quando
-é feito manualmente o mesmo processo.
+No final do processo, foi feito a verificação da tela final.
 
 Para executar o projeto pode-se usar o yarn cypress open e clicar no escopo utilizado.
 Dessa forma pode acompanhar os casos de testes serem executados.
